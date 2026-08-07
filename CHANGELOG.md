@@ -1,5 +1,7 @@
 # Changelog
 
+*Versioning convention: conservative. Ordinary revisions increment by 0.01 (3.0 → 3.01 → 3.02). The major number moves only for a fundamental change in how a skill works, and rarely.*
+
 ## tbp-coach
 
 ### 3.0 — 2026-08-07
