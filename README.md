@@ -66,3 +66,7 @@ Works in any capable AI chat — ChatGPT, Claude, Gemini, Copilot. No account se
 ## Author
 
 Art Smalley — [artoflean.com](https://artoflean.com). Questions and feedback: open an issue on this repository.
+
+## License
+
+[CC BY 4.0](./LICENSE.md) — free to use, share, and adapt, with credit to Art Smalley.
