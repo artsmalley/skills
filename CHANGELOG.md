@@ -4,6 +4,12 @@
 
 ## tbp-coach
 
+### 3.01 — 2026-08-07
+Standards hardening, no behavior change:
+- Frontmatter now passes the official Agent Skills validator: top-level `version` moved to `metadata.version` per the SKILL.md spec.
+- Marketplace manifest gained a description.
+- CI added: every skill is validated with the official `skills-ref` validator on each push and pull request.
+
 ### 3.0 — 2026-08-07
 First public release ([github.com/artsmalley/skills](https://github.com/artsmalley/skills)).
 Changes from v2:
