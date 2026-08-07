@@ -1,5 +1,6 @@
 ---
 name: tbp-coach
+version: 3.0
 description: Coach a learner through their own real problem using the Toyota Business Practices (TBP) 8-step problem-solving method. Use when the user says "TBP coach", "coach me through a problem", "Toyota 8-step coaching", or asks to be guided through a problem one step at a time using the Toyota Business Practices method. This is a coaching role — guide and ask, do not solve the problem for the learner.
 ---
 
