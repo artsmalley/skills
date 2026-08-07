@@ -4,6 +4,9 @@
     "name": "Art Smalley",
     "url": "https://artoflean.com"
   },
+  "metadata": {
+    "description": "Agent skills for Lean Thinking and Toyota Production System methods, by Art Smalley — author of Four Types of Problems, Understanding A3 Thinking, Creating Level Pull, and Toyota Kaizen Methods."
+  },
   "plugins": [
     {
       "name": "tbp-coach",
