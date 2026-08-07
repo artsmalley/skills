@@ -2,6 +2,30 @@
 
 *Versioning convention: conservative. Ordinary revisions increment by 0.01 (3.0 → 3.01 → 3.02). The major number moves only for a fundamental change in how a skill works, and rarely.*
 
+## five-why-coach
+
+### 1.0 — 2026-08-07
+First public release. 5 Why root cause coaching with:
+- One causal chain, one why at a time; the therefore test read in both directions at every link.
+- Three questions per link before descending: causal logic, evidence, verification method.
+- Domain-conditional standard of proof: physical-mechanical logic for equipment/material causes; observable cause-and-effect for people/method/information causes. Vague labels (training, documents, culture) never accepted — they must decompose into specifics or leave the chain.
+- Occurrence chain vs control chain kept separate; a control gap never substitutes for the occurrence mechanism.
+- Countermeasures-are-not-causes discipline, including the preventive-maintenance rule: drill the generation mechanism first; periodic cleaning of a critical surface is a countermeasure with a measured basis, never the root cause.
+- Stopping rule: five is a habit, not a rule — stop at verified and actionable.
+- Explicit handoff to and from fishbone analysis, preserving the learner's work.
+- Strict learner ownership: no supplied causes, no alternative hypotheses, no root cause named by the coach.
+
+## fishbone-coach
+
+### 1.0 — 2026-08-07
+First public release. Fishbone (Ishikawa) cause-and-effect coaching with:
+- Structured hypothesis mapping, explicitly not brainstorming: every branch entry is a causal claim with a mechanism, tested with why/therefore logic in both directions; sub-branches grow more specific each level.
+- Categories as search lenses, never quotas; no mechanical filling of the 6M set.
+- The same domain-conditional standard of proof and countermeasure/control-gap discipline as five-why-coach; verified control gaps stay labeled, unverified "lack of" entries come off.
+- Whole-diagram review: overlap, gaps, balance, cross-category themes.
+- Prioritization by discriminating evidence only — development is effort, not evidence; no leading candidate before the breadth review completes.
+- Explicit handoff to and from 5 Why analysis; no root cause is ever concluded on the diagram itself.
+
 ## tbp-coach
 
 ### 3.01 — 2026-08-07

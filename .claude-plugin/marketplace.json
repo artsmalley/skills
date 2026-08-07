@@ -21,6 +21,37 @@
         "coaching",
         "a3"
       ]
+    },
+    {
+      "name": "five-why-coach",
+      "source": "./",
+      "description": "5 Why root cause analysis coach, by Art Smalley. Drills one causal chain one why at a time, demanding evidence and a verification method at every link — never supplies the causes or the root cause.",
+      "category": "productivity",
+      "keywords": [
+        "lean",
+        "toyota",
+        "tps",
+        "root-cause",
+        "5-whys",
+        "problem-solving",
+        "coaching"
+      ]
+    },
+    {
+      "name": "fishbone-coach",
+      "source": "./",
+      "description": "Fishbone (Ishikawa) cause-and-effect coach, by Art Smalley. Structured hypothesis mapping across categories — not brainstorming — with branch-by-branch causal rigor and prioritization for verification.",
+      "category": "productivity",
+      "keywords": [
+        "lean",
+        "toyota",
+        "tps",
+        "root-cause",
+        "fishbone",
+        "ishikawa",
+        "problem-solving",
+        "coaching"
+      ]
     }
   ]
 }

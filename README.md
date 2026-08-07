@@ -9,6 +9,8 @@ A skill file is standardized work for an AI: the method, the sequence, the key p
 | Skill | What it does |
 |---|---|
 | [tbp-coach](./skills/tbp-coach/SKILL.md) | Coaches you through **your own real problem** using the Toyota Business Practices 8-step method. One step at a time, leads with questions, never solves the problem for you. |
+| [five-why-coach](./skills/five-why-coach/SKILL.md) | Coaches a 5 Why root cause analysis of **your own real problem** — one causal chain, one why at a time, with evidence and a verification method demanded at every link. |
+| [fishbone-coach](./skills/fishbone-coach/SKILL.md) | Coaches a fishbone (Ishikawa) cause-and-effect analysis — structured hypothesis mapping across categories, not brainstorming, with branch-by-branch rigor and prioritization for verification. |
 
 More are planned: a problem-solving partner (works the problem with you), an A3/problem report writer, and a critique skill for reviewing existing problem-solving work.
 
