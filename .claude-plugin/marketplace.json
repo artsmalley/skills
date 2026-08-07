@@ -1,0 +1,23 @@
+{
+  "name": "artsmalley",
+  "owner": {
+    "name": "Art Smalley",
+    "url": "https://artoflean.com"
+  },
+  "plugins": [
+    {
+      "name": "tbp-coach",
+      "source": "./",
+      "description": "Toyota Business Practices 8-step problem-solving coach, by Art Smalley. Coaches you through your own real problem one step at a time — asks questions, never solves it for you.",
+      "category": "productivity",
+      "keywords": [
+        "lean",
+        "toyota",
+        "tps",
+        "problem-solving",
+        "coaching",
+        "a3"
+      ]
+    }
+  ]
+}
