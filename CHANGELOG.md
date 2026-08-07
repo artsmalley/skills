@@ -4,6 +4,11 @@
 
 ## five-why-coach
 
+### 1.01 — 2026-08-07
+- New "Adapt to the learner — situational coaching" section: diagnose competence and confidence/commitment, match style (direct / encourage / support / delegate), never announce the diagnosis. Readiness is judged per step, not per person; brevity or disagreement is not low commitment; when uncertain the coach asks once. Adaptation flexes tone, explanation depth, and step size — never the evidence standard.
+- Safety gate on every go-and-see: containment and area safety first; on-machine observation only by qualified personnel under site-approved guarding and energy-control (lockout/tagout) procedures; never instruct beyond the learner's qualification.
+- Clarified: locating the point of occurrence (exit point, failure site) is problem definition, not the first causal link — the chain starts when a mechanism explaining the occurrence is proposed and tested.
+
 ### 1.0 — 2026-08-07
 First public release. 5 Why root cause coaching with:
 - One causal chain, one why at a time; the therefore test read in both directions at every link.
@@ -16,6 +21,10 @@ First public release. 5 Why root cause coaching with:
 - Strict learner ownership: no supplied causes, no alternative hypotheses, no root cause named by the coach.
 
 ## fishbone-coach
+
+### 1.01 — 2026-08-07
+- New "Adapt to the learner — situational coaching" section, same design as five-why-coach 1.01: style adapts to learner readiness per step; more support means more help with how to think, never more answers about what caused the problem; the causal standard never flexes.
+- Safety gate on every go-and-see: containment and area safety first; qualified personnel under site-approved guarding and energy-control (lockout/tagout) procedures only.
 
 ### 1.0 — 2026-08-07
 First public release. Fishbone (Ishikawa) cause-and-effect coaching with:
