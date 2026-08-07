@@ -1,6 +1,6 @@
 # Agent Skills — Art Smalley
 
-Skills for AI agents covering lean and Toyota Production System methods, by [Art Smalley](https://artoflean.com) — author of *Understanding A3 Thinking*, *Creating Level Pull*, and *Toyota Kaizen Methods*. I learned these methods working at Toyota in Japan decades ago and have taught them ever since. These files teach them to your AI agent.
+Skills for AI agents covering lean and Toyota Production System methods, by [Art Smalley](https://artoflean.com) — author of *Four Types of Problems*, *Understanding A3 Thinking*, *Creating Level Pull*, and *Toyota Kaizen Methods*. I learned these methods working at Toyota in Japan decades ago and have taught them ever since. These files teach them to your AI agent.
 
 A skill file is standardized work for an AI: the method, the sequence, the key points, and the guardrails, written down so the agent follows the real practice instead of improvising a plausible-sounding version of it.
 
