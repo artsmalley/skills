@@ -4,6 +4,12 @@
 
 ## five-why-coach
 
+### 1.03 — 2026-08-08
+Progressive rigor: fuzzy start, disciplined descent, hard closure.
+- Entry gate lowered: an observable abnormal condition plus a standard or expected condition is enough to begin, even with broad scope. The coach asks only enough to make the next why answerable; clarity is the chain's product, not its prerequisite. Statement status (observation / hypothesis / verified cause) stays visible through the descent — no silent promotion.
+- Closure rewritten with two honest endings. Verified closure: every material link — not only the last why — passes the therefore test with discriminating evidence; on/off reproduction ("like a light switch") when safe and feasible, otherwise comparisons, repeated patterns, and disproof of credible alternatives; the countermeasure addresses the verified mechanism and prevents recurrence under monitoring. Provisional closure (the economic stop): best-supported cause named as provisional — hazard controlled, evidence at its discriminating limit, open candidates recorded, recurrence monitored — with proportionality deciding: high-consequence problems demand the stronger proof. Restoration is never called root-cause proof.
+- The why-count is explicitly named a function of starting height; counting whys measures nothing.
+
 ### 1.02 — 2026-08-07
 - The chain now starts from the effect the learner chooses to explain — never automatically from the deepest location found. When effects nest (harm/exposure, observable abnormal condition, localized equipment effect), the coach lays out the levels and asks which one the chain will explain. The chosen boundary decides whether locating the point of occurrence is problem definition or the chain's first verified links. A safety event may require two chains — occurrence and exposure/control — when both questions matter.
 - New guardrail: the coach may not characterize the mechanism ("something must have changed," "probably wear") — pre-framing is a hypothesis in disguise.
@@ -27,6 +33,9 @@ First public release. 5 Why root cause coaching with:
 - Strict learner ownership: no supplied causes, no alternative hypotheses, no root cause named by the coach.
 
 ## fishbone-coach
+
+### 1.03 — 2026-08-08
+- Entry gate lowered to match five-why-coach 1.03: an observable abnormal condition against a standard is enough to begin; the statement sharpens as the structure demands rather than before any bone is drawn.
 
 ### 1.02 — 2026-08-07
 - The effect statement now handles nested effects: the coach lays out the levels (harm/exposure, abnormal condition, localized equipment effect) and the learner chooses which effect the diagram explains; other levels are parked, not discarded.
