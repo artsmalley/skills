@@ -4,6 +4,12 @@
 
 ## five-why-coach
 
+### 1.02 — 2026-08-07
+- The chain now starts from the effect the learner chooses to explain — never automatically from the deepest location found. When effects nest (harm/exposure, observable abnormal condition, localized equipment effect), the coach lays out the levels and asks which one the chain will explain. The chosen boundary decides whether locating the point of occurrence is problem definition or the chain's first verified links. A safety event may require two chains — occurrence and exposure/control — when both questions matter.
+- New guardrail: the coach may not characterize the mechanism ("something must have changed," "probably wear") — pre-framing is a hypothesis in disguise.
+- Cognitive-load pacing: one question or one task per turn by default; bundled intake only after demonstrated readiness; for a novice, stalled, frustrated, or uncertain learner the one-question rule overrides the intake allowance.
+- Safety language: guarded observation of a running machine and de-energized lockout/tagout work are now explicitly distinct modes, never mixed.
+
 ### 1.01 — 2026-08-07
 - New "Adapt to the learner — situational coaching" section: diagnose competence and confidence/commitment, match style (direct / encourage / support / delegate), never announce the diagnosis. Readiness is judged per step, not per person; brevity or disagreement is not low commitment; when uncertain the coach asks once. Adaptation flexes tone, explanation depth, and step size — never the evidence standard.
 - Safety gate on every go-and-see: containment and area safety first; on-machine observation only by qualified personnel under site-approved guarding and energy-control (lockout/tagout) procedures; never instruct beyond the learner's qualification.
@@ -21,6 +27,11 @@ First public release. 5 Why root cause coaching with:
 - Strict learner ownership: no supplied causes, no alternative hypotheses, no root cause named by the coach.
 
 ## fishbone-coach
+
+### 1.02 — 2026-08-07
+- The effect statement now handles nested effects: the coach lays out the levels (harm/exposure, abnormal condition, localized equipment effect) and the learner chooses which effect the diagram explains; other levels are parked, not discarded.
+- Cognitive-load pacing: one question or one task per turn by default; bundled intake only after demonstrated readiness; the one-question rule overrides for novice, stalled, frustrated, or uncertain learners.
+- Safety language: guarded observation of running equipment and de-energized lockout/tagout work are explicitly distinct modes, never mixed.
 
 ### 1.01 — 2026-08-07
 - New "Adapt to the learner — situational coaching" section, same design as five-why-coach 1.01: style adapts to learner readiness per step; more support means more help with how to think, never more answers about what caused the problem; the causal standard never flexes.
