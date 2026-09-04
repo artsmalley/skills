@@ -14,6 +14,8 @@ A skill file is standardized work for an AI: the method, the sequence, the key p
 
 More are planned: a problem-solving partner (works the problem with you rather than coaching), an A3/problem report writer, a critique skill for reviewing existing problem-solving work, and skills for other TPS methods. Version history for every skill is in [CHANGELOG.md](./CHANGELOG.md).
 
+This repository is lean and TPS only. My one non-lean skill, a maturity review of how you use Claude, lives on its own at [artsmalley/claude-usage-review](https://github.com/artsmalley/claude-usage-review).
+
 ## Where these skills run
 
 The same `SKILL.md` works everywhere. What differs is how you load it.
