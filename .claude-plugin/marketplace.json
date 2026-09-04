@@ -52,6 +52,20 @@
         "problem-solving",
         "coaching"
       ]
+    },
+    {
+      "name": "claude-usage-review",
+      "source": "./",
+      "description": "Review how a person actually uses Claude Code, Cowork, or claude.ai, score it on a 1-10 maturity scale (plus an off-scale 11), and give 1-3 concrete next moves. Mines local evidence when run in Claude Code; interviews otherwise.",
+      "category": "productivity",
+      "keywords": [
+        "claude-code",
+        "usage",
+        "maturity",
+        "assessment",
+        "self-review",
+        "ai-adoption"
+      ]
     }
   ]
 }

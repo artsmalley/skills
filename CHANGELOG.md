@@ -2,6 +2,15 @@
 
 *Versioning convention: conservative. Ordinary revisions increment by 0.01 (3.0 → 3.01 → 3.02). The major number moves only for a fundamental change in how a skill works, and rarely.*
 
+## claude-usage-review
+
+### 1.0 — 2026-09-04
+First public release. Reviews a person's actual usage of Claude Code / Cowork / claude.ai:
+- Two modes: evidence (mines local Claude Code data, aggregate stats only, never transcript bodies) and interview (ten questions, self-report flagged as such).
+- Four dimensions scored 1–10 — delegation depth, environment investment, autonomy granted, output shipped — rolled up by judgment, not average.
+- 1–10 maturity scale with an off-scale 11 (field shaper). Exponential curve: 1–8 learnable practice, 8→9 requires an operated system with real stakes and a feedback loop, 10→11 is decided by the field. Advice never targets 11.
+- Archetype calibration (demo-maker, creator with a channel, connector-master) and a feedback ladder: evidence first, next moves from one band up.
+
 ## five-why-coach
 
 ### 1.03 — 2026-08-08
