@@ -14,29 +14,6 @@ A skill file is standardized work for an AI: the method, the sequence, the key p
 
 More are planned: a problem-solving partner (works the problem with you rather than coaching), an A3/problem report writer, a critique skill for reviewing existing problem-solving work, and skills for other TPS methods. Version history for every skill is in [CHANGELOG.md](./CHANGELOG.md).
 
-### Not lean, but the same habit
-
-| Skill | What it does | Use it when |
-|---|---|---|
-| [claude-usage-review](./skills/claude-usage-review/SKILL.md) | Reviews how you actually use Claude — Claude Code, Cowork, or claude.ai — scores it on a 1–10 maturity scale, and gives one to three next moves. In Claude Code it mines local evidence (tool mix, skills, hooks, settings, git history); elsewhere it interviews you. | You want an honest read on your own practice, or you are assessing someone else's AI-tool maturity. |
-
-I use this one in the Claude Code CLI on my own machine, every few weeks, to review my usage of the tool and reflect on what to improve next. Say "usage review" and it does the rest. The same reflect-and-improve habit that TPS applies to a process, applied to how you work with the agent.
-
-Two things to know before you run it:
-
-- **It is intentionally broad.** One rubric covers a chat-only professional orchestrating email and Slack, a developer running subagents, and a creator running a publishing pipeline. It scores four dimensions — delegation depth, environment investment, autonomy granted, output shipped — and rolls them up by judgment, not by average. Most working professionals genuinely land at 3 to 5, and the write-up is built to make a 5 read as the real accomplishment it is.
-- **The levels get progressively harder, and not linearly.** Levels 1 through 8 are learnable practice: each is a behavior you can adopt by deciding to. Moving from 8 to 9 means something with real stakes exists and is operated, with feedback flowing back into agent-built updates. That is a different kind of step from 5 to 6. Moving from 10 to 11 is not in your control at all: the field has to adopt your methods. The skill never advises anyone to aim at 11. Next moves always come from one band up, never from the summit.
-
-| Level | Anchor |
-|---|---|
-| 1–2 | Search substitute. Asks questions, reads answers. |
-| 3–4 | Copy-paste assistant. Gets drafts, carries them by hand. |
-| 5–6 | Real delegator. Whole tasks end to end, project context, one real system connected. |
-| 7–8 | Environment builder. Skills, hooks, automation, unattended runs. An 8 has shipped something someone else used. |
-| 9 | Operator. Real stakes, real users or workload, a live improvement loop. |
-| 10 | Production at scale. Multiple operations, or one that strangers depend on. |
-| 11 | Off-scale. Changes how other people use the tool. Scored by the field, not by you. |
-
 ## Where these skills run
 
 The same `SKILL.md` works everywhere. What differs is how you load it.
@@ -66,14 +43,13 @@ claude plugin marketplace add artsmalley/skills
 claude plugin install tbp-coach@artsmalley
 claude plugin install five-why-coach@artsmalley
 claude plugin install fishbone-coach@artsmalley
-claude plugin install claude-usage-review@artsmalley
 ```
 
 Or from inside a session: `/plugin` → browse the `artsmalley` marketplace → install.
 
 Manual alternative: copy a skill folder into `~/.claude/skills/` (personal, all projects) or into `.claude/skills/` inside a repository (shared with everyone who clones it, and loaded by Claude Code cloud sessions).
 
-Then just describe your problem, or say "TBP coach", "5 whys", "fishbone", or "usage review" — the skill triggers on the description in its frontmatter. Claude Code also lists installed skills as slash commands: `/tbp-coach`, `/five-why-coach`, `/fishbone-coach`, `/claude-usage-review`.
+Then just describe your problem, or say "TBP coach", "5 whys", or "fishbone" — the skill triggers on the description in its frontmatter. Claude Code also lists installed skills as slash commands: `/tbp-coach`, `/five-why-coach`, `/fishbone-coach`.
 
 Note: Claude Code plugins and `~/.claude/skills/` serve Claude Code only. Cowork and claude.ai do not read that folder — see the claude.ai section.
 
@@ -206,7 +182,6 @@ skills/
   tbp-coach/        SKILL.md + LICENSE.md
   five-why-coach/   SKILL.md + LICENSE.md
   fishbone-coach/   SKILL.md + LICENSE.md
-  claude-usage-review/  SKILL.md + LICENSE.md
 .claude-plugin/     marketplace manifest for Claude Code
 .github/workflows/  validates every skill against the Agent Skills spec on each push
 CHANGELOG.md        per-skill version history
