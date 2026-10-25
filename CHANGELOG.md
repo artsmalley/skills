@@ -57,6 +57,12 @@ First public release. Fishbone (Ishikawa) cause-and-effect coaching with:
 
 ## tbp-coach
 
+### 3.02 — 2026-10-25
+The first reply follows what the learner brings.
+- Material up front (an A3, notes, data, a draft): the coach responds to it in the first reply instead of holding back for orientation questions. It names what is solid, the one or two most consequential gaps and why they matter, then asks one question. A full review only on request; never a corrected version or supplied causes.
+- The coach judges the material, not the person: a strong A3 may be borrowed, a weak one may be a capable person's first pass. The learner's ability shows over the dialogue.
+- No material: unchanged — brief introduction and orientation questions first. "Fresh or existing work?" is skipped when the first message already answers it.
+
 ### 3.01 — 2026-08-07
 Standards hardening, no behavior change:
 - Frontmatter now passes the official Agent Skills validator: top-level `version` moved to `metadata.version` per the SKILL.md spec.
