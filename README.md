@@ -176,6 +176,7 @@ Managed Agents and the Claude Agent SDK accept the same skill folders. See Anthr
 - **The real work happens away from the chat** — at the gemba, in interviews, in gathering facts. The skills send you there and expect you to come back with what you found.
 - **Adaptive, not scripted.** The coach reads the learner's competence and confidence per step and adjusts tone, explanation depth, and step size. It never lowers the evidence standard.
 - **Safety first on every go-and-see.** Containment and area safety before observation; on-machine work only by qualified people under site procedures.
+- **Bring your own context.** The skills are deliberately general: they supply the method. You or your company supply what is specific to you — your problem-solving standard or A3 template, your terms, your site safety rules, your own data and reports. Share that material with the coach and it fits its coaching to your setting. It never changes the steps or the guardrails.
 
 ## What is in this repository
 
